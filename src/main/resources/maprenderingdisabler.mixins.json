@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "dev.kinau.modid.mixin",
+	"package": "dev.kinau.maprenderingdisabler.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "MapRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

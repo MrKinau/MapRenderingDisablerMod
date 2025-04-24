@@ -1,31 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "maprenderingdisabler",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Map Rendering Disabler",
+	"description": "Stops filled maps from rendering",
 	"authors": [
 		"MrKinau"
 	],
 	"contact": {
-		"homepage": "https://github.com/MrKinau/modid",
-		"repo": "https://github.com/MrKinau/modid"
+		"homepage": "https://github.com/MrKinau/MapRenderingDisabler",
+		"repo": "https://github.com/MrKinau/MapRenderingDisabler"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/maprenderingdisabler/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"main": [
-			"dev.kinau.modid.ExampleMod"
+          "dev.kinau.maprenderingdisabler.MapRenderingDisablerMod"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json"
+      "maprenderingdisabler.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21.4",
-		"java": ">=21",
-		"fabric-api": "*"
+		"fabricloader": ">=0.15.0",
+		"minecraft": ">=1.21.2",
+		"java": ">=21"
 	}
 }
